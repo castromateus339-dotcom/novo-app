@@ -1,9 +1,15 @@
-"scripts": {
-  "dev": "next dev --turbo",
-  "build": "next build",
-  "start": "next start"
-},
- 
+{
+  "name": "treino-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "deploy": "vercel",
+    "deploy:prod": "vercel --prod"
+  },
   "dependencies": {
     "@fontsource/geist-mono": "^5.1.0",
     "@fontsource/geist-sans": "^5.1.0",
